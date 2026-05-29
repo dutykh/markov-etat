@@ -1,0 +1,661 @@
+{
+  "family": "c=-9 minimal exceptional direction",
+  "P_k": "(12k+15,6k-8)",
+  "Q_k": "(12k+5,6k+4)",
+  "conditions": "k>=2, k not congruent to 22 mod 31",
+  "primary": {
+    "modulus": 5,
+    "period_mod_k": 62,
+    "period_ok": true,
+    "period_failure": null,
+    "survivors_mod_62": [
+      0,
+      13,
+      31,
+      44
+    ],
+    "table": [
+      {
+        "class_mod_62": 0,
+        "representative_k": 62,
+        "m_P_mod_5": 0,
+        "m_Q_mod_5": 0,
+        "separated": false
+      },
+      {
+        "class_mod_62": 1,
+        "representative_k": 63,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 2,
+        "representative_k": 2,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 3,
+        "representative_k": 3,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 4,
+        "representative_k": 4,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 5,
+        "representative_k": 5,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 6,
+        "representative_k": 6,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 7,
+        "representative_k": 7,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 8,
+        "representative_k": 8,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 9,
+        "representative_k": 9,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 10,
+        "representative_k": 10,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 11,
+        "representative_k": 11,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 12,
+        "representative_k": 12,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 13,
+        "representative_k": 13,
+        "m_P_mod_5": 0,
+        "m_Q_mod_5": 0,
+        "separated": false
+      },
+      {
+        "class_mod_62": 14,
+        "representative_k": 14,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 15,
+        "representative_k": 15,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 16,
+        "representative_k": 16,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 17,
+        "representative_k": 17,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 18,
+        "representative_k": 18,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 19,
+        "representative_k": 19,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 20,
+        "representative_k": 20,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 21,
+        "representative_k": 21,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 22,
+        "excluded_by_primitivity": true
+      },
+      {
+        "class_mod_62": 23,
+        "representative_k": 23,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 24,
+        "representative_k": 24,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 25,
+        "representative_k": 25,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 26,
+        "representative_k": 26,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 27,
+        "representative_k": 27,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 28,
+        "representative_k": 28,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 29,
+        "representative_k": 29,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 30,
+        "representative_k": 30,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 31,
+        "representative_k": 31,
+        "m_P_mod_5": 0,
+        "m_Q_mod_5": 0,
+        "separated": false
+      },
+      {
+        "class_mod_62": 32,
+        "representative_k": 32,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 33,
+        "representative_k": 33,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 34,
+        "representative_k": 34,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 35,
+        "representative_k": 35,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 36,
+        "representative_k": 36,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 37,
+        "representative_k": 37,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 38,
+        "representative_k": 38,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 39,
+        "representative_k": 39,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 40,
+        "representative_k": 40,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 41,
+        "representative_k": 41,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 42,
+        "representative_k": 42,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 43,
+        "representative_k": 43,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 44,
+        "representative_k": 44,
+        "m_P_mod_5": 0,
+        "m_Q_mod_5": 0,
+        "separated": false
+      },
+      {
+        "class_mod_62": 45,
+        "representative_k": 45,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 46,
+        "representative_k": 46,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 47,
+        "representative_k": 47,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 48,
+        "representative_k": 48,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 49,
+        "representative_k": 49,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 50,
+        "representative_k": 50,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 51,
+        "representative_k": 51,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 52,
+        "representative_k": 52,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 53,
+        "excluded_by_primitivity": true
+      },
+      {
+        "class_mod_62": 54,
+        "representative_k": 54,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 55,
+        "representative_k": 55,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 56,
+        "representative_k": 56,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 57,
+        "representative_k": 57,
+        "m_P_mod_5": 3,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 58,
+        "representative_k": 58,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 59,
+        "representative_k": 59,
+        "m_P_mod_5": 1,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 60,
+        "representative_k": 60,
+        "m_P_mod_5": 4,
+        "m_Q_mod_5": 0,
+        "separated": true
+      },
+      {
+        "class_mod_62": 61,
+        "representative_k": 61,
+        "m_P_mod_5": 2,
+        "m_Q_mod_5": 0,
+        "separated": true
+      }
+    ]
+  },
+  "auxiliary": {
+    "modulus": 23,
+    "period_in_lift_parameter_a": 12,
+    "period_ok": true,
+    "period_failure": null,
+    "blocks": [
+      {
+        "base_class_mod_31": 0,
+        "period_in_a": 12,
+        "rows": [
+          {
+            "a_mod_12": 0,
+            "k_class": "31a+0",
+            "representative_k": 372,
+            "m_P_mod_23": 8,
+            "m_Q_mod_23": 19,
+            "separated": true
+          },
+          {
+            "a_mod_12": 1,
+            "k_class": "31a+0",
+            "representative_k": 31,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 17,
+            "separated": true
+          },
+          {
+            "a_mod_12": 2,
+            "k_class": "31a+0",
+            "representative_k": 62,
+            "m_P_mod_23": 15,
+            "m_Q_mod_23": 3,
+            "separated": true
+          },
+          {
+            "a_mod_12": 3,
+            "k_class": "31a+0",
+            "representative_k": 93,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 19,
+            "separated": true
+          },
+          {
+            "a_mod_12": 4,
+            "k_class": "31a+0",
+            "representative_k": 124,
+            "m_P_mod_23": 8,
+            "m_Q_mod_23": 20,
+            "separated": true
+          },
+          {
+            "a_mod_12": 5,
+            "k_class": "31a+0",
+            "representative_k": 155,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 14,
+            "separated": true
+          },
+          {
+            "a_mod_12": 6,
+            "k_class": "31a+0",
+            "representative_k": 186,
+            "m_P_mod_23": 15,
+            "m_Q_mod_23": 4,
+            "separated": true
+          },
+          {
+            "a_mod_12": 7,
+            "k_class": "31a+0",
+            "representative_k": 217,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 6,
+            "separated": true
+          },
+          {
+            "a_mod_12": 8,
+            "k_class": "31a+0",
+            "representative_k": 248,
+            "m_P_mod_23": 8,
+            "m_Q_mod_23": 20,
+            "separated": true
+          },
+          {
+            "a_mod_12": 9,
+            "k_class": "31a+0",
+            "representative_k": 279,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 4,
+            "separated": true
+          },
+          {
+            "a_mod_12": 10,
+            "k_class": "31a+0",
+            "representative_k": 310,
+            "m_P_mod_23": 15,
+            "m_Q_mod_23": 3,
+            "separated": true
+          },
+          {
+            "a_mod_12": 11,
+            "k_class": "31a+0",
+            "representative_k": 341,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 9,
+            "separated": true
+          }
+        ]
+      },
+      {
+        "base_class_mod_31": 13,
+        "period_in_a": 12,
+        "rows": [
+          {
+            "a_mod_12": 0,
+            "k_class": "31a+13",
+            "representative_k": 13,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 6,
+            "separated": true
+          },
+          {
+            "a_mod_12": 1,
+            "k_class": "31a+13",
+            "representative_k": 44,
+            "m_P_mod_23": 21,
+            "m_Q_mod_23": 20,
+            "separated": true
+          },
+          {
+            "a_mod_12": 2,
+            "k_class": "31a+13",
+            "representative_k": 75,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 4,
+            "separated": true
+          },
+          {
+            "a_mod_12": 3,
+            "k_class": "31a+13",
+            "representative_k": 106,
+            "m_P_mod_23": 2,
+            "m_Q_mod_23": 3,
+            "separated": true
+          },
+          {
+            "a_mod_12": 4,
+            "k_class": "31a+13",
+            "representative_k": 137,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 9,
+            "separated": true
+          },
+          {
+            "a_mod_12": 5,
+            "k_class": "31a+13",
+            "representative_k": 168,
+            "m_P_mod_23": 21,
+            "m_Q_mod_23": 19,
+            "separated": true
+          },
+          {
+            "a_mod_12": 6,
+            "k_class": "31a+13",
+            "representative_k": 199,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 17,
+            "separated": true
+          },
+          {
+            "a_mod_12": 7,
+            "k_class": "31a+13",
+            "representative_k": 230,
+            "m_P_mod_23": 2,
+            "m_Q_mod_23": 3,
+            "separated": true
+          },
+          {
+            "a_mod_12": 8,
+            "k_class": "31a+13",
+            "representative_k": 261,
+            "m_P_mod_23": 10,
+            "m_Q_mod_23": 19,
+            "separated": true
+          },
+          {
+            "a_mod_12": 9,
+            "k_class": "31a+13",
+            "representative_k": 292,
+            "m_P_mod_23": 21,
+            "m_Q_mod_23": 20,
+            "separated": true
+          },
+          {
+            "a_mod_12": 10,
+            "k_class": "31a+13",
+            "representative_k": 323,
+            "m_P_mod_23": 13,
+            "m_Q_mod_23": 14,
+            "separated": true
+          },
+          {
+            "a_mod_12": 11,
+            "k_class": "31a+13",
+            "representative_k": 354,
+            "m_P_mod_23": 2,
+            "m_Q_mod_23": 4,
+            "separated": true
+          }
+        ]
+      }
+    ]
+  },
+  "conclusion": "All admissible classes are separated modulo 5 or modulo 23."
+}

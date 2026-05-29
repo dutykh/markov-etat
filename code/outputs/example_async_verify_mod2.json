@@ -1,0 +1,42 @@
+{
+  "accepted_states_reached": 36864,
+  "cohn_states": 192,
+  "dfa_path": "/mnt/data/example_async_padding_dfa.json",
+  "equal_residue_accepting_states": 5,
+  "examples": [
+    {
+      "dfa_state": "A",
+      "left_state": 1,
+      "residue": 1,
+      "right_state": 0
+    },
+    {
+      "dfa_state": "A",
+      "left_state": 2,
+      "residue": 1,
+      "right_state": 0
+    },
+    {
+      "dfa_state": "A",
+      "left_state": 0,
+      "residue": 1,
+      "right_state": 1
+    },
+    {
+      "dfa_state": "A",
+      "left_state": 0,
+      "residue": 1,
+      "right_state": 2
+    },
+    {
+      "dfa_state": "A",
+      "left_state": 1,
+      "residue": 1,
+      "right_state": 5
+    }
+  ],
+  "modulus": 2,
+  "product_edges_scanned": 442368,
+  "product_states_reached": 55296,
+  "status": "FAIL"
+}

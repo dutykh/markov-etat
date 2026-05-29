@@ -1,0 +1,241 @@
+{
+  "family": "c=5 minimal exceptional direction",
+  "P_k": "(12k+29, 6k+6)",
+  "Q_k": "(12k+19, 6k+18)",
+  "admissibility": "k>=0 and k != 14,16 mod 17",
+  "mod37_period": 34,
+  "mod37_survivors_mod34": [
+    15,
+    32
+  ],
+  "mod37_table": [
+    {
+      "k_mod_34": 0,
+      "mP_mod37": 26,
+      "mQ_mod37": 36,
+      "separated": true
+    },
+    {
+      "k_mod_34": 1,
+      "mP_mod37": 14,
+      "mQ_mod37": 9,
+      "separated": true
+    },
+    {
+      "k_mod_34": 2,
+      "mP_mod37": 36,
+      "mQ_mod37": 8,
+      "separated": true
+    },
+    {
+      "k_mod_34": 3,
+      "mP_mod37": 35,
+      "mQ_mod37": 0,
+      "separated": true
+    },
+    {
+      "k_mod_34": 4,
+      "mP_mod37": 15,
+      "mQ_mod37": 29,
+      "separated": true
+    },
+    {
+      "k_mod_34": 5,
+      "mP_mod37": 28,
+      "mQ_mod37": 13,
+      "separated": true
+    },
+    {
+      "k_mod_34": 6,
+      "mP_mod37": 30,
+      "mQ_mod37": 24,
+      "separated": true
+    },
+    {
+      "k_mod_34": 7,
+      "mP_mod37": 13,
+      "mQ_mod37": 7,
+      "separated": true
+    },
+    {
+      "k_mod_34": 8,
+      "mP_mod37": 24,
+      "mQ_mod37": 9,
+      "separated": true
+    },
+    {
+      "k_mod_34": 9,
+      "mP_mod37": 8,
+      "mQ_mod37": 22,
+      "separated": true
+    },
+    {
+      "k_mod_34": 10,
+      "mP_mod37": 0,
+      "mQ_mod37": 2,
+      "separated": true
+    },
+    {
+      "k_mod_34": 11,
+      "mP_mod37": 29,
+      "mQ_mod37": 1,
+      "separated": true
+    },
+    {
+      "k_mod_34": 12,
+      "mP_mod37": 28,
+      "mQ_mod37": 23,
+      "separated": true
+    },
+    {
+      "k_mod_34": 13,
+      "mP_mod37": 1,
+      "mQ_mod37": 11,
+      "separated": true
+    },
+    {
+      "k_mod_34": 14,
+      "excluded_by_primitivity": true
+    },
+    {
+      "k_mod_34": 15,
+      "mP_mod37": 22,
+      "mQ_mod37": 22,
+      "separated": false
+    },
+    {
+      "k_mod_34": 16,
+      "excluded_by_primitivity": true
+    },
+    {
+      "k_mod_34": 17,
+      "mP_mod37": 11,
+      "mQ_mod37": 1,
+      "separated": true
+    },
+    {
+      "k_mod_34": 18,
+      "mP_mod37": 23,
+      "mQ_mod37": 28,
+      "separated": true
+    },
+    {
+      "k_mod_34": 19,
+      "mP_mod37": 1,
+      "mQ_mod37": 29,
+      "separated": true
+    },
+    {
+      "k_mod_34": 20,
+      "mP_mod37": 2,
+      "mQ_mod37": 0,
+      "separated": true
+    },
+    {
+      "k_mod_34": 21,
+      "mP_mod37": 22,
+      "mQ_mod37": 8,
+      "separated": true
+    },
+    {
+      "k_mod_34": 22,
+      "mP_mod37": 9,
+      "mQ_mod37": 24,
+      "separated": true
+    },
+    {
+      "k_mod_34": 23,
+      "mP_mod37": 7,
+      "mQ_mod37": 13,
+      "separated": true
+    },
+    {
+      "k_mod_34": 24,
+      "mP_mod37": 24,
+      "mQ_mod37": 30,
+      "separated": true
+    },
+    {
+      "k_mod_34": 25,
+      "mP_mod37": 13,
+      "mQ_mod37": 28,
+      "separated": true
+    },
+    {
+      "k_mod_34": 26,
+      "mP_mod37": 29,
+      "mQ_mod37": 15,
+      "separated": true
+    },
+    {
+      "k_mod_34": 27,
+      "mP_mod37": 0,
+      "mQ_mod37": 35,
+      "separated": true
+    },
+    {
+      "k_mod_34": 28,
+      "mP_mod37": 8,
+      "mQ_mod37": 36,
+      "separated": true
+    },
+    {
+      "k_mod_34": 29,
+      "mP_mod37": 9,
+      "mQ_mod37": 14,
+      "separated": true
+    },
+    {
+      "k_mod_34": 30,
+      "mP_mod37": 36,
+      "mQ_mod37": 26,
+      "separated": true
+    },
+    {
+      "k_mod_34": 31,
+      "excluded_by_primitivity": true
+    },
+    {
+      "k_mod_34": 32,
+      "mP_mod37": 15,
+      "mQ_mod37": 15,
+      "separated": false
+    },
+    {
+      "k_mod_34": 33,
+      "excluded_by_primitivity": true
+    }
+  ],
+  "central_survivor_class": "k == 15 mod 17",
+  "survivor_paths": {
+    "N": "N=6n+5",
+    "P_path": "L R^N L R L R^4",
+    "Q_path": "R L^N R^2 L R^4"
+  },
+  "symbolic_trace_difference": "tr(C_Q)-tr(C_P)=3(15a+b)F(a,b), where W^N=aW+bI",
+  "F_coefficients_absolute_alternating_after_b=-c": [
+    28305432785095636926339161237345860037,
+    30210095036138032693761407504442890565,
+    15113586058384412512860964238217700321,
+    4704573499158574331222367262340555385,
+    1019861700736242780522042837814077689,
+    163260763475742643739728904224613325,
+    19963841540415897155497270642306669,
+    1902209778872206678219811287302705,
+    142729803886841076464237114207699,
+    8461691818984168697868665954385,
+    395040425938527245453388848173,
+    14370687987897098520425013165,
+    399332674198797846866134265,
+    8194283830074912400459545,
+    117099392667675678532897,
+    1041201096041146034085,
+    4339569015926666021
+  ],
+  "positivity_interval": "0 < c/a < 1/14",
+  "positivity_check": "C0-C1/14 > sum_{j>=2} Cj/14^j",
+  "positive_margin_numerator": 56776450013218623146667119024756272232022390327391952873,
+  "positive_margin_denominator": 2177953337809371136,
+  "positive_margin_decimal_approx": 2.6068717372212163e+37,
+  "conclusion": "mod 37 handles k !=15 mod17; symbolic positivity handles k=17n+15. Hence c=5 is excluded."
+}

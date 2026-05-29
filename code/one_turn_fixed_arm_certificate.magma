@@ -1,0 +1,56 @@
+/*
+  Authors:
+    Dr. Denys Dutykh (Khalifa University of Science and Technology, Abu Dhabi, UAE)
+    Dr. Laurent Vuillon (Univ. Savoie Mont Blanc, CNRS, LAMA, Chambéry, France)
+
+  Magma certificate for the one-turn fixed-arm problem.
+
+  Goal:
+      Prove there are no n >= 0, m >= 1 with
+          3*Lucas(4*n+12) + 4 = 5*Pell(2*m+3).
+
+  Reduction used in the manuscript:
+      Put y = Pell(2*m+3). Equality implies
+          u^2 - 2*y^2 = -1,
+          5*y^2 - 8*y - 9*v^2 = 4,
+      and w = (5*y - 4)/3 = Lucas(4*n+12).
+
+  This script asks Magma to compute the integral points on this genus-one
+  affine curve. The expected positive y-values are y = 5 and y = 29 only;
+  they correspond to Lucas values w = 7 = L_4 and w = 47 = L_8, hence to
+  n = -2 and n = -1, outside n >= 0.
+
+  Run in Magma with:
+      magma one_turn_fixed_arm_certificate.magma
+
+  Depending on the Magma version, IntegralPoints for affine curves may use
+  RankBounds/Chabauty internally. If your installation requires an elliptic
+  model explicitly, use the Sage script supplied in the same package or ask
+  Magma to convert the genus-one curve to an elliptic curve.
+*/
+
+Q := Rationals();
+A3<u,y,v> := AffineSpace(Q,3);
+C := Curve(A3, [u^2 - 2*y^2 + 1, 5*y^2 - 8*y - 9*v^2 - 4]);
+
+print "Curve C defined by:";
+print "  u^2 - 2*y^2 = -1";
+print "  5*y^2 - 8*y - 9*v^2 = 4";
+
+pts := IntegralPoints(C);
+print "Integral points:";
+print pts;
+
+ys := Sort(Setseq({Integers()!P[2] : P in pts | P[2] gt 0}));
+print "Positive y-values:";
+print ys;
+
+assert ys eq [ 5, 29 ];
+
+for yy in ys do
+    assert (5*yy - 4) mod 3 eq 0;
+    ww := (5*yy - 4) div 3;
+    print "y =", yy, " gives w =", ww;
+end for;
+
+print "Certificate passed: only y=5,29, corresponding to Lucas L_4,L_8, no n>=0.";

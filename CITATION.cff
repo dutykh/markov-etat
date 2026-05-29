@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the monograph below."
+title: "A Cohn-tree reduction of the Frobenius–Markov uniqueness conjecture (code and certificates)"
+type: software
+authors:
+  - family-names: "Dutykh"
+    given-names: "Denys"
+    affiliation: "Khalifa University of Science and Technology, Abu Dhabi, UAE"
+    email: "denys.dutykh@ku.ac.ae"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+  - family-names: "Vuillon"
+    given-names: "Laurent"
+    affiliation: "Univ. Savoie Mont Blanc, CNRS, LAMA, Chambéry, France"
+    email: "laurent.vuillon@univ-smb.fr"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+repository-code: "https://github.com/dutykh/markov-etat"
+url: "https://github.com/dutykh/markov-etat"
+license: LGPL-2.1
+keywords:
+  - "Frobenius–Markov uniqueness conjecture"
+  - "Markov numbers"
+  - "Cohn tree"
+  - "Cohn words"
+  - "Farey cones"
+  - "trace recurrences"
+  - "Vieta gluing"
+  - "Fibonacci–Pell intersection"
+# The preferred citation is the monograph itself. Update year/doi/url/journal
+# once it is published.
+preferred-citation:
+  type: article
+  title: "A Cohn-tree reduction of the Frobenius–Markov uniqueness conjecture"
+  authors:
+    - family-names: "Dutykh"
+      given-names: "Denys"
+    - family-names: "Vuillon"
+      given-names: "Laurent"
+  year: 2026
+  # doi: "10.xxxx/xxxxxx"   # TODO: fill in once published
+  # url: "https://..."      # TODO: fill in once published
+  notes: "Preprint. Code and certificates: https://github.com/dutykh/markov-etat"

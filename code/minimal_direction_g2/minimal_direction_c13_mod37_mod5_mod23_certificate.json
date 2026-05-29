@@ -1,0 +1,178 @@
+{
+  "family": "c=13 minimal exceptional direction",
+  "P_k": "(12k+37, 6k+14)",
+  "Q_k": "(12k+27, 6k+26)",
+  "admissibility": "k >= 0 and k != 4 mod 5",
+  "mod37_period": 450,
+  "mod37_survivor_classes_mod_450": [
+    23,
+    30,
+    108,
+    126,
+    135,
+    156,
+    172,
+    197,
+    248,
+    255,
+    333,
+    351,
+    360,
+    381,
+    397,
+    422
+  ],
+  "mod37_survivor_count": 16,
+  "mod5_table_for_mod37_survivors": [
+    {
+      "k_mod_450": 23,
+      "representative": 23,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 0,
+      "separated": false
+    },
+    {
+      "k_mod_450": 30,
+      "representative": 30,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "k_mod_450": 108,
+      "representative": 108,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_450": 126,
+      "representative": 126,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_450": 135,
+      "representative": 135,
+      "m_P_mod_5": 3,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "k_mod_450": 156,
+      "representative": 156,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 3,
+      "separated": true
+    },
+    {
+      "k_mod_450": 172,
+      "representative": 172,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 3,
+      "separated": true
+    },
+    {
+      "k_mod_450": 197,
+      "representative": 197,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 2,
+      "separated": true
+    },
+    {
+      "k_mod_450": 248,
+      "representative": 248,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 0,
+      "separated": false
+    },
+    {
+      "k_mod_450": 255,
+      "representative": 255,
+      "m_P_mod_5": 3,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_450": 333,
+      "representative": 333,
+      "m_P_mod_5": 3,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "k_mod_450": 351,
+      "representative": 351,
+      "m_P_mod_5": 3,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "k_mod_450": 360,
+      "representative": 360,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "k_mod_450": 381,
+      "representative": 381,
+      "m_P_mod_5": 3,
+      "m_Q_mod_5": 2,
+      "separated": true
+    },
+    {
+      "k_mod_450": 397,
+      "representative": 397,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 2,
+      "separated": true
+    },
+    {
+      "k_mod_450": 422,
+      "representative": 422,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 3,
+      "separated": true
+    }
+  ],
+  "mod5_survivor_classes_mod_450": [
+    23,
+    248
+  ],
+  "mod5_survivor_count": 2,
+  "mod23_period_for_lifts": 900,
+  "mod23_table_for_mod37_and_mod5_survivor_lifts_mod_900": [
+    {
+      "k_mod_900": 23,
+      "representative": 23,
+      "m_P_mod_23": 2,
+      "m_Q_mod_23": 1,
+      "separated": true
+    },
+    {
+      "k_mod_900": 248,
+      "representative": 248,
+      "m_P_mod_23": 1,
+      "m_Q_mod_23": 8,
+      "separated": true
+    },
+    {
+      "k_mod_900": 473,
+      "representative": 473,
+      "m_P_mod_23": 21,
+      "m_Q_mod_23": 22,
+      "separated": true
+    },
+    {
+      "k_mod_900": 698,
+      "representative": 698,
+      "m_P_mod_23": 22,
+      "m_Q_mod_23": 15,
+      "separated": true
+    }
+  ],
+  "all_mod23_rows_separated": true,
+  "conclusion": "Every admissible class is separated modulo 37, except survivor classes. Mod 5 separates all but two survivor classes. All lifts of those two classes modulo 900 are separated modulo 23."
+}

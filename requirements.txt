@@ -1,0 +1,21 @@
+# Dependencies for the markov-etat code
+# =======================================
+#
+# The Python scripts in code/ (including the proof certificates in
+# code/minimal_direction_g2/) use ONLY the Python 3 standard library.
+# There is nothing to install with pip:
+#
+#     python3 code/minimal_direction_g2/minimal_direction_g2_certificate.py
+#
+# runs as-is on any CPython >= 3.8.
+#
+# Optional external tools (NOT installable via pip, NOT required for the
+# Python scripts or the manuscript build):
+#
+#   - typst   : to build the manuscript  (cd manuscript && make)
+#   - Magma   : for the proposed, *unexecuted* Pellian certificate
+#               code/one_turn_fixed_arm_certificate.magma
+#   - Sage    : for the proposed, *unexecuted* Pellian certificate
+#               code/one_turn_fixed_arm_certificate.sage
+#
+# This file is intentionally empty of pip requirements.

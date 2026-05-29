@@ -1,0 +1,163 @@
+{
+  "family": "c=21 minimal exceptional direction",
+  "P_t": "(2t+43,t+21)",
+  "Q_t": "(2t+33,t+33)",
+  "conditions": "t > 0, t == 1 mod 6, t != 0 mod 11",
+  "modulus": 5,
+  "period_mod_t": 132,
+  "period_sanity_check_to_5000": true,
+  "period_sanity_failure": null,
+  "table": [
+    {
+      "class_mod_132": 1,
+      "representative_t": 1,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 7,
+      "representative_t": 7,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "class_mod_132": 13,
+      "representative_t": 13,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 19,
+      "representative_t": 19,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 3,
+      "separated": true
+    },
+    {
+      "class_mod_132": 25,
+      "representative_t": 25,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "class_mod_132": 31,
+      "representative_t": 31,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 37,
+      "representative_t": 37,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "class_mod_132": 43,
+      "representative_t": 43,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "class_mod_132": 49,
+      "representative_t": 49,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "class_mod_132": 55,
+      "representative_t": 55,
+      "excluded_by_primitivity": true
+    },
+    {
+      "class_mod_132": 61,
+      "representative_t": 61,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 67,
+      "representative_t": 67,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 73,
+      "representative_t": 73,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "class_mod_132": 79,
+      "representative_t": 79,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 85,
+      "representative_t": 85,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 2,
+      "separated": true
+    },
+    {
+      "class_mod_132": 91,
+      "representative_t": 91,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "class_mod_132": 97,
+      "representative_t": 97,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 0,
+      "separated": true
+    },
+    {
+      "class_mod_132": 103,
+      "representative_t": 103,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "class_mod_132": 109,
+      "representative_t": 109,
+      "m_P_mod_5": 4,
+      "m_Q_mod_5": 1,
+      "separated": true
+    },
+    {
+      "class_mod_132": 115,
+      "representative_t": 115,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "class_mod_132": 121,
+      "representative_t": 121,
+      "excluded_by_primitivity": true
+    },
+    {
+      "class_mod_132": 127,
+      "representative_t": 127,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 0,
+      "separated": true
+    }
+  ],
+  "conclusion": "Every admissible residue class modulo 132 is separated modulo 5."
+}

@@ -1,0 +1,864 @@
+{
+  "bounds": {
+    "hmax": 60,
+    "pmax": 80,
+    "rmax": 60,
+    "tmax": 80
+  },
+  "direction_summaries": [
+    {
+      "direction": "r=36,h=30",
+      "first_separator_counts": {
+        "3": 2394,
+        "5": 980,
+        "7": 161,
+        "11": 39,
+        "13": 14,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3589
+    },
+    {
+      "direction": "r=42,h=36",
+      "first_separator_counts": {
+        "3": 2392,
+        "5": 936,
+        "7": 169,
+        "11": 69,
+        "13": 17,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 3585
+    },
+    {
+      "direction": "r=60,h=50",
+      "first_separator_counts": {
+        "2": 1878,
+        "3": 928,
+        "5": 316,
+        "7": 97,
+        "11": 23,
+        "13": 7
+      },
+      "survivors": 0,
+      "total": 3249
+    },
+    {
+      "direction": "r=52,h=44",
+      "first_separator_counts": {
+        "5": 2525,
+        "7": 476,
+        "11": 133,
+        "13": 22,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 3158
+    },
+    {
+      "direction": "r=28,h=24",
+      "first_separator_counts": {
+        "2": 1771,
+        "5": 1082,
+        "7": 215,
+        "11": 76,
+        "13": 11
+      },
+      "survivors": 0,
+      "total": 3155
+    },
+    {
+      "direction": "r=52,h=42",
+      "first_separator_counts": {
+        "2": 1781,
+        "3": 897,
+        "5": 381,
+        "7": 77,
+        "11": 18,
+        "13": 1
+      },
+      "survivors": 0,
+      "total": 3155
+    },
+    {
+      "direction": "r=58,h=48",
+      "first_separator_counts": {
+        "2": 1779,
+        "3": 897,
+        "5": 365,
+        "7": 90,
+        "11": 17,
+        "13": 3
+      },
+      "survivors": 0,
+      "total": 3151
+    },
+    {
+      "direction": "r=58,h=50",
+      "first_separator_counts": {
+        "3": 2100,
+        "5": 847,
+        "7": 167,
+        "11": 33,
+        "13": 3,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3151
+    },
+    {
+      "direction": "r=22,h=18",
+      "first_separator_counts": {
+        "2": 1762,
+        "3": 966,
+        "5": 327,
+        "7": 64,
+        "11": 23,
+        "13": 8
+      },
+      "survivors": 0,
+      "total": 3150
+    },
+    {
+      "direction": "r=12,h=10",
+      "first_separator_counts": {
+        "2": 1769,
+        "3": 899,
+        "5": 390,
+        "7": 66,
+        "11": 23,
+        "13": 1,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3149
+    },
+    {
+      "direction": "r=60,h=52",
+      "first_separator_counts": {
+        "2": 1773,
+        "5": 1113,
+        "7": 199,
+        "11": 57,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 3148
+    },
+    {
+      "direction": "r=54,h=46",
+      "first_separator_counts": {
+        "2": 1758,
+        "3": 961,
+        "5": 331,
+        "7": 79,
+        "11": 10,
+        "13": 4,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3144
+    },
+    {
+      "direction": "r=48,h=40",
+      "first_separator_counts": {
+        "2": 1763,
+        "5": 1110,
+        "7": 186,
+        "11": 68,
+        "13": 14,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 3143
+    },
+    {
+      "direction": "r=32,h=26",
+      "first_separator_counts": {
+        "2": 1749,
+        "3": 911,
+        "5": 374,
+        "7": 77,
+        "11": 25,
+        "13": 4,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3141
+    },
+    {
+      "direction": "r=56,h=46",
+      "first_separator_counts": {
+        "3": 2075,
+        "5": 844,
+        "7": 161,
+        "11": 50,
+        "13": 4,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3135
+    },
+    {
+      "direction": "r=30,h=26",
+      "first_separator_counts": {
+        "2": 1811,
+        "3": 861,
+        "5": 382,
+        "7": 51,
+        "11": 23,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 3134
+    },
+    {
+      "direction": "r=42,h=34",
+      "first_separator_counts": {
+        "2": 1765,
+        "3": 943,
+        "5": 330,
+        "7": 69,
+        "11": 22,
+        "13": 3
+      },
+      "survivors": 0,
+      "total": 3132
+    },
+    {
+      "direction": "r=46,h=38",
+      "first_separator_counts": {
+        "3": 2082,
+        "5": 850,
+        "7": 150,
+        "11": 41,
+        "13": 8,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3132
+    },
+    {
+      "direction": "r=38,h=32",
+      "first_separator_counts": {
+        "2": 1741,
+        "3": 912,
+        "5": 367,
+        "7": 81,
+        "11": 26,
+        "13": 3,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3131
+    },
+    {
+      "direction": "r=34,h=28",
+      "first_separator_counts": {
+        "2": 1805,
+        "3": 893,
+        "5": 342,
+        "7": 51,
+        "11": 27,
+        "13": 7
+      },
+      "survivors": 0,
+      "total": 3125
+    },
+    {
+      "direction": "r=46,h=40",
+      "first_separator_counts": {
+        "2": 1798,
+        "3": 895,
+        "5": 343,
+        "7": 63,
+        "11": 18,
+        "13": 2,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3120
+    },
+    {
+      "direction": "r=26,h=22",
+      "first_separator_counts": {
+        "3": 2077,
+        "5": 816,
+        "7": 145,
+        "11": 69,
+        "13": 8,
+        "17": 4
+      },
+      "survivors": 0,
+      "total": 3119
+    },
+    {
+      "direction": "r=50,h=42",
+      "first_separator_counts": {
+        "2": 1781,
+        "3": 873,
+        "5": 372,
+        "7": 70,
+        "11": 17,
+        "13": 5,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3119
+    },
+    {
+      "direction": "r=54,h=44",
+      "first_separator_counts": {
+        "2": 1804,
+        "3": 889,
+        "5": 333,
+        "7": 64,
+        "11": 25,
+        "13": 2,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 3118
+    },
+    {
+      "direction": "r=24,h=20",
+      "first_separator_counts": {
+        "2": 1803,
+        "5": 1068,
+        "7": 186,
+        "11": 52,
+        "13": 6,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 3117
+    },
+    {
+      "direction": "r=44,h=38",
+      "first_separator_counts": {
+        "2": 1735,
+        "3": 901,
+        "5": 396,
+        "7": 70,
+        "11": 8,
+        "13": 4
+      },
+      "survivors": 0,
+      "total": 3114
+    },
+    {
+      "direction": "r=40,h=34",
+      "first_separator_counts": {
+        "2": 1806,
+        "3": 886,
+        "5": 337,
+        "7": 60,
+        "11": 20,
+        "13": 3
+      },
+      "survivors": 0,
+      "total": 3112
+    },
+    {
+      "direction": "r=56,h=48",
+      "first_separator_counts": {
+        "2": 1785,
+        "5": 1034,
+        "7": 199,
+        "11": 79,
+        "13": 11
+      },
+      "survivors": 0,
+      "total": 3108
+    },
+    {
+      "direction": "r=14,h=12",
+      "first_separator_counts": {
+        "2": 1776,
+        "3": 897,
+        "5": 340,
+        "7": 60,
+        "11": 23,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 3102
+    },
+    {
+      "direction": "r=44,h=36",
+      "first_separator_counts": {
+        "2": 1799,
+        "5": 1041,
+        "7": 186,
+        "11": 61,
+        "13": 13
+      },
+      "survivors": 0,
+      "total": 3100
+    },
+    {
+      "direction": "r=51,h=42",
+      "first_separator_counts": {
+        "3": 1199,
+        "5": 1001,
+        "7": 146,
+        "11": 52,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 2404
+    },
+    {
+      "direction": "r=57,h=48",
+      "first_separator_counts": {
+        "3": 1201,
+        "5": 937,
+        "7": 193,
+        "11": 54,
+        "13": 9,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 2396
+    },
+    {
+      "direction": "r=21,h=18",
+      "first_separator_counts": {
+        "3": 1196,
+        "5": 928,
+        "7": 181,
+        "11": 76,
+        "13": 5,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2387
+    },
+    {
+      "direction": "r=33,h=27",
+      "first_separator_counts": {
+        "3": 1190,
+        "5": 935,
+        "7": 197,
+        "11": 43,
+        "13": 15,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2381
+    },
+    {
+      "direction": "r=60,h=51",
+      "first_separator_counts": {
+        "3": 1188,
+        "5": 966,
+        "7": 160,
+        "11": 56,
+        "13": 8,
+        "17": 3
+      },
+      "survivors": 0,
+      "total": 2381
+    },
+    {
+      "direction": "r=54,h=45",
+      "first_separator_counts": {
+        "3": 1199,
+        "5": 944,
+        "7": 168,
+        "11": 56,
+        "13": 12,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2380
+    },
+    {
+      "direction": "r=39,h=33",
+      "first_separator_counts": {
+        "3": 1191,
+        "5": 954,
+        "7": 165,
+        "11": 53,
+        "13": 12,
+        "17": 3
+      },
+      "survivors": 0,
+      "total": 2378
+    },
+    {
+      "direction": "r=48,h=39",
+      "first_separator_counts": {
+        "3": 1181,
+        "5": 961,
+        "7": 185,
+        "11": 40,
+        "13": 7,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2375
+    },
+    {
+      "direction": "r=18,h=15",
+      "first_separator_counts": {
+        "3": 1182,
+        "5": 1002,
+        "7": 133,
+        "11": 46,
+        "13": 8,
+        "17": 2
+      },
+      "survivors": 0,
+      "total": 2373
+    },
+    {
+      "direction": "r=45,h=39",
+      "first_separator_counts": {
+        "3": 1187,
+        "5": 943,
+        "7": 182,
+        "11": 50,
+        "13": 10
+      },
+      "survivors": 0,
+      "total": 2372
+    },
+    {
+      "direction": "r=55,h=45",
+      "first_separator_counts": {
+        "2": 1199,
+        "3": 495,
+        "5": 380,
+        "7": 84,
+        "11": 26,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 2190
+    },
+    {
+      "direction": "r=30,h=25",
+      "first_separator_counts": {
+        "2": 1249,
+        "3": 469,
+        "5": 364,
+        "7": 83,
+        "11": 16,
+        "13": 5,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2187
+    },
+    {
+      "direction": "r=35,h=30",
+      "first_separator_counts": {
+        "2": 1245,
+        "3": 464,
+        "5": 377,
+        "7": 68,
+        "11": 17,
+        "13": 6
+      },
+      "survivors": 0,
+      "total": 2177
+    },
+    {
+      "direction": "r=49,h=42",
+      "first_separator_counts": {
+        "2": 1219,
+        "3": 461,
+        "5": 358,
+        "7": 64,
+        "11": 32,
+        "13": 2,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2137
+    },
+    {
+      "direction": "r=42,h=35",
+      "first_separator_counts": {
+        "2": 1231,
+        "3": 455,
+        "5": 360,
+        "7": 71,
+        "11": 17,
+        "13": 1,
+        "17": 1
+      },
+      "survivors": 0,
+      "total": 2136
+    }
+  ],
+  "examples": [
+    {
+      "P": [
+        24,
+        1
+      ],
+      "Q": [
+        14,
+        13
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LR LR LR LR LR LR LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        1,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRRRRRRR"
+    },
+    {
+      "P": [
+        25,
+        1
+      ],
+      "Q": [
+        15,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LR LR LR LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        2,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRL"
+    },
+    {
+      "P": [
+        26,
+        1
+      ],
+      "Q": [
+        16,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LR LR LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        3,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRLL"
+    },
+    {
+      "P": [
+        27,
+        1
+      ],
+      "Q": [
+        17,
+        13
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LR LR LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        4,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRLLL"
+    },
+    {
+      "P": [
+        28,
+        1
+      ],
+      "Q": [
+        18,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LL LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        5,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRLRL"
+    },
+    {
+      "P": [
+        29,
+        1
+      ],
+      "Q": [
+        19,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LL LL LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        6,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRLLLLL"
+    },
+    {
+      "P": [
+        30,
+        1
+      ],
+      "Q": [
+        20,
+        13
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LL LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        7,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLRRRRR"
+    },
+    {
+      "P": [
+        31,
+        1
+      ],
+      "Q": [
+        21,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LL LR LL LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        8,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLRLR"
+    },
+    {
+      "P": [
+        32,
+        1
+      ],
+      "Q": [
+        22,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LL LL LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        9,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLLRRR"
+    },
+    {
+      "P": [
+        33,
+        1
+      ],
+      "Q": [
+        23,
+        13
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LL LL LL LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        10,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLLLRR"
+    },
+    {
+      "P": [
+        34,
+        1
+      ],
+      "Q": [
+        24,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LL LL LL LL LL LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        11,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLLLLLR"
+    },
+    {
+      "P": [
+        35,
+        1
+      ],
+      "Q": [
+        25,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LL LL LL LL LL LL LL LL LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "params": [
+        1,
+        12,
+        12,
+        10
+      ],
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLLLLLLLLLLL"
+    }
+  ],
+  "first_separator_counts": {
+    "2": 47135,
+    "3": 42787,
+    "5": 31682,
+    "7": 5869,
+    "11": 1809,
+    "13": 318,
+    "17": 40
+  },
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "parameterization": "P=(p+r+h+t,p), Q=(p+r+t,p+r), exceptional: 4r<5h and 8h<7r",
+  "require_nonprimitive_step_gcd_r_h_gt_1": true,
+  "survivor_count_recorded": 0,
+  "survivors_recorded": [],
+  "total_pairs": 129640
+}

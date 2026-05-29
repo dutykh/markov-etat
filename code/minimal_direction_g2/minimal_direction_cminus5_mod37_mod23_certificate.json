@@ -1,0 +1,195 @@
+{
+  "family": "c=-5 minimal exceptional direction",
+  "P_k": "(12k+19, 6k-4)",
+  "Q_k": "(12k+9, 6k+8)",
+  "admissibility": "k >= 1 and k != 1 mod 7",
+  "mod37_period": 378,
+  "mod37_survivor_classes_mod_378": [
+    16,
+    20,
+    54,
+    76,
+    150,
+    152,
+    205,
+    209,
+    243,
+    265,
+    339,
+    341
+  ],
+  "mod37_survivor_count": 12,
+  "mod23_period_for_lifts": 756,
+  "mod23_table_for_mod37_survivor_lifts_mod_756": [
+    {
+      "k_mod_756": 16,
+      "representative": 16,
+      "m_P_mod_23": 9,
+      "m_Q_mod_23": 8,
+      "separated": true
+    },
+    {
+      "k_mod_756": 20,
+      "representative": 20,
+      "m_P_mod_23": 15,
+      "m_Q_mod_23": 4,
+      "separated": true
+    },
+    {
+      "k_mod_756": 54,
+      "representative": 54,
+      "m_P_mod_23": 9,
+      "m_Q_mod_23": 14,
+      "separated": true
+    },
+    {
+      "k_mod_756": 76,
+      "representative": 76,
+      "m_P_mod_23": 22,
+      "m_Q_mod_23": 4,
+      "separated": true
+    },
+    {
+      "k_mod_756": 150,
+      "representative": 150,
+      "m_P_mod_23": 2,
+      "m_Q_mod_23": 9,
+      "separated": true
+    },
+    {
+      "k_mod_756": 152,
+      "representative": 152,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 9,
+      "separated": true
+    },
+    {
+      "k_mod_756": 205,
+      "representative": 205,
+      "m_P_mod_23": 4,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_756": 209,
+      "representative": 209,
+      "m_P_mod_23": 19,
+      "m_Q_mod_23": 18,
+      "separated": true
+    },
+    {
+      "k_mod_756": 243,
+      "representative": 243,
+      "m_P_mod_23": 2,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_756": 265,
+      "representative": 265,
+      "m_P_mod_23": 10,
+      "m_Q_mod_23": 18,
+      "separated": true
+    },
+    {
+      "k_mod_756": 339,
+      "representative": 339,
+      "m_P_mod_23": 12,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_756": 341,
+      "representative": 341,
+      "m_P_mod_23": 14,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_756": 394,
+      "representative": 394,
+      "m_P_mod_23": 14,
+      "m_Q_mod_23": 15,
+      "separated": true
+    },
+    {
+      "k_mod_756": 398,
+      "representative": 398,
+      "m_P_mod_23": 8,
+      "m_Q_mod_23": 19,
+      "separated": true
+    },
+    {
+      "k_mod_756": 432,
+      "representative": 432,
+      "m_P_mod_23": 14,
+      "m_Q_mod_23": 9,
+      "separated": true
+    },
+    {
+      "k_mod_756": 454,
+      "representative": 454,
+      "m_P_mod_23": 1,
+      "m_Q_mod_23": 19,
+      "separated": true
+    },
+    {
+      "k_mod_756": 528,
+      "representative": 528,
+      "m_P_mod_23": 21,
+      "m_Q_mod_23": 14,
+      "separated": true
+    },
+    {
+      "k_mod_756": 530,
+      "representative": 530,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 14,
+      "separated": true
+    },
+    {
+      "k_mod_756": 583,
+      "representative": 583,
+      "m_P_mod_23": 19,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_756": 587,
+      "representative": 587,
+      "m_P_mod_23": 4,
+      "m_Q_mod_23": 5,
+      "separated": true
+    },
+    {
+      "k_mod_756": 621,
+      "representative": 621,
+      "m_P_mod_23": 21,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_756": 643,
+      "representative": 643,
+      "m_P_mod_23": 13,
+      "m_Q_mod_23": 5,
+      "separated": true
+    },
+    {
+      "k_mod_756": 717,
+      "representative": 717,
+      "m_P_mod_23": 11,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_756": 719,
+      "representative": 719,
+      "m_P_mod_23": 9,
+      "m_Q_mod_23": 17,
+      "separated": true
+    }
+  ],
+  "all_mod23_rows_separated": true,
+  "conclusion": "Every admissible class is separated modulo 37, except survivor classes; all survivor lifts modulo 756 are separated modulo 23."
+}

@@ -1,0 +1,2 @@
+{'checked_n_le': 300, 'checked_m_le': 350, 'hits': [], 'X0_X1': [194, 1325], 'Y0_Y1': [5, 29]}
+{'pellian_hits_odd_index_le': 703, 'hits': [(3, 5, 3, 7), (5, 29, 21, 47)], 'num_hits': 2}

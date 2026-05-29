@@ -1,0 +1,108 @@
+{
+  "all_equal": true,
+  "common_period_T": 2520,
+  "exceptional_window": true,
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "periods": {
+    "11": {
+      "L_period": 20,
+      "R_period": 12
+    },
+    "13": {
+      "L_period": 28,
+      "R_period": 28
+    },
+    "17": {
+      "L_period": 36,
+      "R_period": 8
+    },
+    "19": {
+      "L_period": 36,
+      "R_period": 20
+    },
+    "2": {
+      "L_period": 12,
+      "R_period": 4
+    },
+    "3": {
+      "L_period": 12,
+      "R_period": 12
+    },
+    "5": {
+      "L_period": 20,
+      "R_period": 12
+    },
+    "7": {
+      "L_period": 8,
+      "R_period": 12
+    }
+  },
+  "points": {
+    "P_qp": [
+      32762,
+      1
+    ],
+    "Q_qp": [
+      17642,
+      17641
+    ]
+  },
+  "primitive_endpoints": true,
+  "residues": {
+    "11": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "13": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "17": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "19": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "2": {
+      "P": 1,
+      "Q": 1,
+      "equal": true
+    },
+    "3": {
+      "P": 2,
+      "Q": 2,
+      "equal": true
+    },
+    "5": {
+      "P": 0,
+      "Q": 0,
+      "equal": true
+    },
+    "7": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    }
+  },
+  "terminal_parameters": {
+    "h": 15120,
+    "r": 17640,
+    "s": 32760,
+    "s_over_r": "32760/17640=13/7"
+  }
+}

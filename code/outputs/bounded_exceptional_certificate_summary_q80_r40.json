@@ -1,0 +1,655 @@
+{
+  "dfa_files": [
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod2_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            25,
+            1
+          ],
+          "Q": [
+            15,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRRRRRL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LR LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            26,
+            1
+          ],
+          "Q": [
+            16,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRRRLL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            27,
+            2
+          ],
+          "Q": [
+            17,
+            14
+          ],
+          "path_P": "LLLLLLLLLLLLR",
+          "path_Q": "RRRRLR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LL LR L_ L_ L_ L_ L_ L_ R_"
+        },
+        {
+          "P": [
+            28,
+            1
+          ],
+          "Q": [
+            18,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRLRL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LL LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            29,
+            1
+          ],
+          "Q": [
+            19,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRLLLLL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LL LL LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        }
+      ],
+      "modulus": 2,
+      "states": 13478,
+      "words": 1111
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod3_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            24,
+            1
+          ],
+          "Q": [
+            14,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LR LR LR LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            26,
+            3
+          ],
+          "Q": [
+            16,
+            15
+          ],
+          "path_P": "LLLLLLLRL",
+          "path_Q": "RRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LR LR LR RR LR _R _R _R _R _R"
+        },
+        {
+          "P": [
+            27,
+            1
+          ],
+          "Q": [
+            17,
+            13
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRRLLL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            28,
+            5
+          ],
+          "Q": [
+            18,
+            17
+          ],
+          "path_P": "LLLLRLR",
+          "path_Q": "RRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR RR LR RR _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            29,
+            3
+          ],
+          "Q": [
+            19,
+            15
+          ],
+          "path_P": "LLLLLLLLRL",
+          "path_Q": "RRRLRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LL LR LR L_ L_ R_ L_"
+        }
+      ],
+      "modulus": 3,
+      "states": 11791,
+      "words": 934
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod5_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            27,
+            4
+          ],
+          "Q": [
+            17,
+            16
+          ],
+          "path_P": "LLLLLRLL",
+          "path_Q": "RRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LR RR LR LR _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            29,
+            6
+          ],
+          "Q": [
+            19,
+            18
+          ],
+          "path_P": "LLLRLLLL",
+          "path_Q": "RRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR RR LR LR LR LR _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            31,
+            8
+          ],
+          "Q": [
+            21,
+            20
+          ],
+          "path_P": "LLRLLLLLL",
+          "path_Q": "RRRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR RR LR LR LR LR LR LR _R _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            33,
+            4
+          ],
+          "Q": [
+            23,
+            16
+          ],
+          "path_P": "LLLLLLLRRR",
+          "path_Q": "RRLLLR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LL LL LL LR L_ R_ R_ R_"
+        },
+        {
+          "P": [
+            33,
+            10
+          ],
+          "Q": [
+            23,
+            22
+          ],
+          "path_P": "LLRRRLL",
+          "path_Q": "RRRRRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR RR RR RR LR LR _R _R _R _R _R _R _R _R _R _R _R _R _R _R"
+        }
+      ],
+      "modulus": 5,
+      "states": 7789,
+      "words": 520
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod7_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            25,
+            2
+          ],
+          "Q": [
+            15,
+            14
+          ],
+          "path_P": "LLLLLLLLLLLR",
+          "path_Q": "RRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR LR LR LR LR LR LR LR LR LR RR _R"
+        },
+        {
+          "P": [
+            35,
+            12
+          ],
+          "Q": [
+            25,
+            24
+          ],
+          "path_P": "LRLLLLLLLLLL",
+          "path_Q": "RRRRRRRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR RR LR LR LR LR LR LR LR LR LR LR _R _R _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            39,
+            16
+          ],
+          "Q": [
+            29,
+            28
+          ],
+          "path_P": "LRRLLLR",
+          "path_Q": "RRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR RR RR LR LR LR RR _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            41,
+            12
+          ],
+          "Q": [
+            31,
+            24
+          ],
+          "path_P": "LLRRLLR",
+          "path_Q": "RRRLLRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LR RR RL LL LR RR"
+        },
+        {
+          "P": [
+            45,
+            4
+          ],
+          "Q": [
+            35,
+            16
+          ],
+          "path_P": "LLLLLLLLLLRRR",
+          "path_Q": "LRRRRRLL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LL LR LR LR LR LR LL LL L_ L_ R_ R_ R_"
+        }
+      ],
+      "modulus": 7,
+      "states": 1269,
+      "words": 80
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod11_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            47,
+            24
+          ],
+          "Q": [
+            37,
+            36
+          ],
+          "path_P": "RLLLLLLLLLLLLLLLLLLLLLL",
+          "path_Q": "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "RR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR LR _R _R _R _R _R _R _R _R _R _R _R _R"
+        },
+        {
+          "P": [
+            63,
+            22
+          ],
+          "Q": [
+            53,
+            34
+          ],
+          "path_P": "LRLLLLLLRR",
+          "path_Q": "RLRRRLRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR RL LR LR LR LL LR LR R_ R_"
+        },
+        {
+          "P": [
+            71,
+            6
+          ],
+          "Q": [
+            61,
+            18
+          ],
+          "path_P": "LLLLLLLLLLRLLLL",
+          "path_Q": "LLRRLRLL",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LL LL LR LR LL LR LL LL L_ L_ R_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            75,
+            46
+          ],
+          "Q": [
+            65,
+            58
+          ],
+          "path_P": "RLRLLRRL",
+          "path_Q": "RRRRRRRRLLLR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "RR LR RR LR LR RR RR LR _L _L _L _R"
+        },
+        {
+          "P": [
+            77,
+            24
+          ],
+          "Q": [
+            67,
+            36
+          ],
+          "path_P": "LLRRRRLRRR",
+          "path_Q": "RLLLLLLRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LR LL RL RL RL RL LL RR RR RR _R"
+        }
+      ],
+      "modulus": 11,
+      "states": 565,
+      "words": 35
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod13_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            65,
+            6
+          ],
+          "Q": [
+            55,
+            18
+          ],
+          "path_P": "LLLLLLLLLRLLLL",
+          "path_Q": "LLRRRRRRRRRRRRRRRRR",
+          "r_s": [
+            12,
+            22
+          ],
+          "word": "LL LL LR LR LR LR LR LR LR RR LR LR LR LR _R _R _R _R _R"
+        },
+        {
+          "P": [
+            72,
+            29
+          ],
+          "Q": [
+            60,
+            43
+          ],
+          "path_P": "LRRLLLLLLLLLLLLL",
+          "path_Q": "RRLRLLLLLLL",
+          "r_s": [
+            14,
+            26
+          ],
+          "word": "LR RR RL LR LL LL LL LL LL LL LL L_ L_ L_ L_ L_"
+        },
+        {
+          "P": [
+            76,
+            3
+          ],
+          "Q": [
+            64,
+            17
+          ],
+          "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLRR",
+          "path_Q": "LLRLLLRRR",
+          "r_s": [
+            14,
+            26
+          ],
+          "word": "LL LL LR LL LL LL LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ R_ R_"
+        },
+        {
+          "P": [
+            64,
+            25
+          ],
+          "Q": [
+            49,
+            43
+          ],
+          "path_P": "LRLRRRLR",
+          "path_Q": "RRRRRRRLLLLL",
+          "r_s": [
+            18,
+            33
+          ],
+          "word": "LR RR LR RR RR RR LR RL _L _L _L _L"
+        },
+        {
+          "P": [
+            79,
+            5
+          ],
+          "Q": [
+            64,
+            23
+          ],
+          "path_P": "LLLLLLLLLLLLLLRLLL",
+          "path_Q": "LRLLLRLR",
+          "r_s": [
+            18,
+            33
+          ],
+          "word": "LL LR LL LL LL LR LL LR L_ L_ L_ L_ L_ L_ R_ L_ L_ L_"
+        }
+      ],
+      "modulus": 13,
+      "states": 86,
+      "words": 5
+    },
+    {
+      "dfa_file": "/mnt/data/bounded_exceptional_certificate_80_40/bounded_exceptional_mod17_q80_r40.json",
+      "examples": [
+        {
+          "P": [
+            71,
+            29
+          ],
+          "Q": [
+            56,
+            47
+          ],
+          "path_P": "LRRLLLLRR",
+          "path_Q": "RRRRRLLLLR",
+          "r_s": [
+            18,
+            33
+          ],
+          "word": "LR RR RR LR LR LL LL RL RL _R"
+        }
+      ],
+      "modulus": 17,
+      "states": 11,
+      "words": 1
+    }
+  ],
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "note": "This is a bounded finite-language certificate, not a proof for all pairs.",
+  "qmax": 80,
+  "rmax": 40,
+  "status": "PASS_BOUNDED",
+  "survivor_examples": [],
+  "survivors": 0,
+  "total_exceptional_pairs": 2686,
+  "verify_reports": [
+    {
+      "accepted_states_reached": 1111,
+      "modulus": 2,
+      "product_states_reached": 13478,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod2_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 934,
+      "modulus": 3,
+      "product_states_reached": 11791,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod3_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 520,
+      "modulus": 5,
+      "product_states_reached": 7789,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod5_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 80,
+      "modulus": 7,
+      "product_states_reached": 1269,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod7_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 35,
+      "modulus": 11,
+      "product_states_reached": 565,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod11_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 5,
+      "modulus": 13,
+      "product_states_reached": 86,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod13_q80_r40.json",
+      "status": "PASS"
+    },
+    {
+      "accepted_states_reached": 1,
+      "modulus": 17,
+      "product_states_reached": 11,
+      "report_file": "/mnt/data/bounded_exceptional_certificate_80_40/verify_mod17_q80_r40.json",
+      "status": "PASS"
+    }
+  ]
+}

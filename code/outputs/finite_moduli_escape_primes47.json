@@ -1,0 +1,178 @@
+{
+  "all_equal": true,
+  "common_period_T": 24227280,
+  "exceptional_window": true,
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47
+  ],
+  "periods": {
+    "11": {
+      "L_period": 20,
+      "R_period": 12
+    },
+    "13": {
+      "L_period": 28,
+      "R_period": 28
+    },
+    "17": {
+      "L_period": 36,
+      "R_period": 8
+    },
+    "19": {
+      "L_period": 36,
+      "R_period": 20
+    },
+    "2": {
+      "L_period": 12,
+      "R_period": 4
+    },
+    "23": {
+      "L_period": 24,
+      "R_period": 44
+    },
+    "29": {
+      "L_period": 28,
+      "R_period": 20
+    },
+    "3": {
+      "L_period": 12,
+      "R_period": 12
+    },
+    "31": {
+      "L_period": 60,
+      "R_period": 60
+    },
+    "37": {
+      "L_period": 76,
+      "R_period": 76
+    },
+    "41": {
+      "L_period": 20,
+      "R_period": 20
+    },
+    "43": {
+      "L_period": 44,
+      "R_period": 44
+    },
+    "47": {
+      "L_period": 16,
+      "R_period": 92
+    },
+    "5": {
+      "L_period": 20,
+      "R_period": 12
+    },
+    "7": {
+      "L_period": 8,
+      "R_period": 12
+    }
+  },
+  "points": {
+    "P_qp": [
+      314954642,
+      1
+    ],
+    "Q_qp": [
+      169590962,
+      169590961
+    ]
+  },
+  "primitive_endpoints": true,
+  "residues": {
+    "11": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "13": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "17": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "19": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "2": {
+      "P": 1,
+      "Q": 1,
+      "equal": true
+    },
+    "23": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "29": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "3": {
+      "P": 2,
+      "Q": 2,
+      "equal": true
+    },
+    "31": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "37": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "41": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "43": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "47": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    },
+    "5": {
+      "P": 0,
+      "Q": 0,
+      "equal": true
+    },
+    "7": {
+      "P": 5,
+      "Q": 5,
+      "equal": true
+    }
+  },
+  "terminal_parameters": {
+    "h": 145363680,
+    "r": 169590960,
+    "s": 314954640,
+    "s_over_r": "314954640/169590960=13/7"
+  }
+}

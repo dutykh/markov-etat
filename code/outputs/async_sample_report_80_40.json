@@ -1,0 +1,118 @@
+{
+  "examples": [
+    {
+      "P": [
+        24,
+        1
+      ],
+      "Q": [
+        14,
+        13
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LR LR LR LR LR LR LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        25,
+        1
+      ],
+      "Q": [
+        15,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LR LR LR LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        25,
+        2
+      ],
+      "Q": [
+        15,
+        14
+      ],
+      "first_separator": 7,
+      "paired_word": "LR LR LR LR LR LR LR LR LR LR LR RR _R",
+      "path_P": "LLLLLLLLLLLR",
+      "path_Q": "RRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        26,
+        1
+      ],
+      "Q": [
+        16,
+        13
+      ],
+      "first_separator": 2,
+      "paired_word": "LR LR LR LR LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRLL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        26,
+        3
+      ],
+      "Q": [
+        16,
+        15
+      ],
+      "first_separator": 3,
+      "paired_word": "LR LR LR LR LR LR LR RR LR _R _R _R _R _R",
+      "path_P": "LLLLLLLRL",
+      "path_Q": "RRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    }
+  ],
+  "first_separator_counts": {
+    "2": 1111,
+    "3": 934,
+    "5": 520,
+    "7": 80,
+    "11": 35,
+    "13": 5,
+    "17": 1
+  },
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "qmax": 80,
+  "rmax": 40,
+  "survivor_count_recorded": 0,
+  "survivors_recorded": [],
+  "total_pairs": 2686
+}

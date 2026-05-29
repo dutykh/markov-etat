@@ -1,0 +1,266 @@
+{
+  "family": "c=1 minimal exceptional direction",
+  "P_k": "(12k+25, 6k+2)",
+  "Q_k": "(12k+15, 6k+14)",
+  "admissibility": "k >= 0 and k != 2 mod 7 and k != 2 mod 13",
+  "intersection_numbers_with_(2,1)": {
+    "P": 21,
+    "Q": -13
+  },
+  "mod37_period": 546,
+  "W12_mod_111": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "mod37_survivor_classes_mod_546": [
+    1,
+    43,
+    90,
+    109,
+    115,
+    146,
+    159,
+    263,
+    270,
+    274,
+    316,
+    363,
+    382,
+    388,
+    419,
+    432,
+    536,
+    543
+  ],
+  "mod37_survivor_count": 18,
+  "mod23_period": 1092,
+  "W24_mod_69": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "mod23_lift_table_for_mod37_survivors": [
+    {
+      "k_mod_1092": 1,
+      "m_P_mod_23": 20,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 547,
+      "m_P_mod_23": 3,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 43,
+      "m_P_mod_23": 3,
+      "m_Q_mod_23": 2,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 589,
+      "m_P_mod_23": 20,
+      "m_Q_mod_23": 21,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 90,
+      "m_P_mod_23": 22,
+      "m_Q_mod_23": 14,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 636,
+      "m_P_mod_23": 1,
+      "m_Q_mod_23": 9,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 109,
+      "m_P_mod_23": 12,
+      "m_Q_mod_23": 19,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 655,
+      "m_P_mod_23": 11,
+      "m_Q_mod_23": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 115,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 661,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 146,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 692,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 159,
+      "m_P_mod_23": 21,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 705,
+      "m_P_mod_23": 2,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 263,
+      "m_P_mod_23": 9,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 809,
+      "m_P_mod_23": 14,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 270,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 816,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 19,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 274,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 2,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 820,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 21,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 316,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 15,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 862,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 8,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 363,
+      "m_P_mod_23": 11,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 909,
+      "m_P_mod_23": 12,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 382,
+      "m_P_mod_23": 20,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 928,
+      "m_P_mod_23": 3,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 388,
+      "m_P_mod_23": 1,
+      "m_Q_mod_23": 9,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 934,
+      "m_P_mod_23": 22,
+      "m_Q_mod_23": 14,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 419,
+      "m_P_mod_23": 21,
+      "m_Q_mod_23": 6,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 965,
+      "m_P_mod_23": 2,
+      "m_Q_mod_23": 17,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 432,
+      "m_P_mod_23": 1,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 978,
+      "m_P_mod_23": 22,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 536,
+      "m_P_mod_23": 11,
+      "m_Q_mod_23": 12,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 1082,
+      "m_P_mod_23": 12,
+      "m_Q_mod_23": 11,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 543,
+      "m_P_mod_23": 8,
+      "m_Q_mod_23": 5,
+      "separated": true
+    },
+    {
+      "k_mod_1092": 1089,
+      "m_P_mod_23": 15,
+      "m_Q_mod_23": 18,
+      "separated": true
+    }
+  ],
+  "mod23_survivor_classes_mod_1092": [],
+  "mod23_survivor_count": 0,
+  "conclusion": "Every admissible class is separated modulo 37, except survivor classes. Mod 23 separates both lifts of all survivor classes."
+}

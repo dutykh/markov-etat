@@ -1,0 +1,112 @@
+{
+  "family": "c=7 minimal exceptional direction",
+  "P_k": "(12k+31, 6k+8)",
+  "Q_k": "(12k+21, 6k+20)",
+  "admissibility": "k >= 0 and k != 2 mod 5 and k != 3 mod 19",
+  "intersection_numbers_with_(2,1)": {
+    "P": 15,
+    "Q": -19
+  },
+  "mod47_period": 1140,
+  "W24_mod_141": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "mod47_survivor_classes_mod_1140": [
+    100,
+    146,
+    340,
+    343,
+    670,
+    716,
+    910,
+    913
+  ],
+  "mod47_survivor_count": 8,
+  "mod5_table_for_mod47_survivors": [
+    {
+      "k_mod_1140": 100,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 146,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 340,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 3,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 343,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 1,
+      "separated": false
+    },
+    {
+      "k_mod_1140": 670,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 716,
+      "m_P_mod_5": 0,
+      "m_Q_mod_5": 4,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 910,
+      "m_P_mod_5": 2,
+      "m_Q_mod_5": 3,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 913,
+      "m_P_mod_5": 1,
+      "m_Q_mod_5": 1,
+      "separated": false
+    }
+  ],
+  "mod5_survivor_classes_mod_1140": [
+    343,
+    913
+  ],
+  "mod5_survivor_count": 2,
+  "W4_mod_15": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "mod23_table_for_mod5_survivors": [
+    {
+      "k_mod_1140": 343,
+      "m_P_mod_23": 17,
+      "m_Q_mod_23": 20,
+      "separated": true
+    },
+    {
+      "k_mod_1140": 913,
+      "m_P_mod_23": 6,
+      "m_Q_mod_23": 3,
+      "separated": true
+    }
+  ],
+  "mod23_survivor_classes_mod_1140": [],
+  "mod23_survivor_count": 0,
+  "W24_mod_69": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "conclusion": "Every admissible class is separated modulo 47, except eight classes. Mod 5 separates six of those. Mod 23 separates the remaining two."
+}

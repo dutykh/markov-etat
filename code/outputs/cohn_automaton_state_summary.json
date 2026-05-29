@@ -1,0 +1,10 @@
+[
+  {"markov_modulus": 2, "matrix_modulus": 6, "reachable_states": 192, "start_residue": 1},
+  {"markov_modulus": 3, "matrix_modulus": 9, "reachable_states": 648, "start_residue": 2},
+  {"markov_modulus": 5, "matrix_modulus": 15, "reachable_states": 4800, "start_residue": 0},
+  {"markov_modulus": 7, "matrix_modulus": 21, "reachable_states": 4704, "start_residue": 5},
+  {"markov_modulus": 11, "matrix_modulus": 33, "reachable_states": 23232, "start_residue": 5},
+  {"markov_modulus": 13, "matrix_modulus": 39, "reachable_states": 64896, "start_residue": 5},
+  {"markov_modulus": 17, "matrix_modulus": 51, "reachable_states": 138720, "start_residue": 5},
+  {"markov_modulus": 19, "matrix_modulus": 57, "reachable_states": 138624, "start_residue": 5}
+]

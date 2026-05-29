@@ -1,0 +1,387 @@
+{
+  "examples": [
+    {
+      "P": [
+        24,
+        1
+      ],
+      "Q": [
+        14,
+        13
+      ],
+      "async_word": "LR LR LR LR LR LR LR LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 3,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        25,
+        1
+      ],
+      "Q": [
+        15,
+        13
+      ],
+      "async_word": "LR LR LR LR LR LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRRRL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        25,
+        2
+      ],
+      "Q": [
+        15,
+        14
+      ],
+      "async_word": "LR LR LR LR LR LR LR LR LR LR LR RR _R",
+      "first_separator": 7,
+      "path_P": "LLLLLLLLLLLR",
+      "path_Q": "RRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        26,
+        1
+      ],
+      "Q": [
+        16,
+        13
+      ],
+      "async_word": "LR LR LR LR LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRRLL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        26,
+        3
+      ],
+      "Q": [
+        16,
+        15
+      ],
+      "async_word": "LR LR LR LR LR LR LR RR LR _R _R _R _R _R",
+      "first_separator": 3,
+      "path_P": "LLLLLLLRL",
+      "path_Q": "RRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        27,
+        1
+      ],
+      "Q": [
+        17,
+        13
+      ],
+      "async_word": "LR LR LR LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 3,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRRLLL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        27,
+        2
+      ],
+      "Q": [
+        17,
+        14
+      ],
+      "async_word": "LR LR LR LR LL LR L_ L_ L_ L_ L_ L_ R_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLR",
+      "path_Q": "RRRRLR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        27,
+        4
+      ],
+      "Q": [
+        17,
+        16
+      ],
+      "async_word": "LR LR LR LR LR RR LR LR _R _R _R _R _R _R _R",
+      "first_separator": 5,
+      "path_P": "LLLLLRLL",
+      "path_Q": "RRRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        28,
+        1
+      ],
+      "Q": [
+        18,
+        13
+      ],
+      "async_word": "LR LR LL LR LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRLRL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        28,
+        5
+      ],
+      "Q": [
+        18,
+        17
+      ],
+      "async_word": "LR LR LR LR RR LR RR _R _R _R _R _R _R _R _R _R",
+      "first_separator": 3,
+      "path_P": "LLLLRLR",
+      "path_Q": "RRRRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        1
+      ],
+      "Q": [
+        19,
+        13
+      ],
+      "async_word": "LR LR LL LL LL LL LL L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RRLLLLL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        2
+      ],
+      "Q": [
+        19,
+        14
+      ],
+      "async_word": "LR LR LL LR LR LR L_ L_ L_ L_ L_ L_ L_ R_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLR",
+      "path_Q": "RRLRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        3
+      ],
+      "Q": [
+        19,
+        15
+      ],
+      "async_word": "LR LR LR LL LR LR L_ L_ R_ L_",
+      "first_separator": 3,
+      "path_P": "LLLLLLLLRL",
+      "path_Q": "RRRLRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        4
+      ],
+      "Q": [
+        19,
+        16
+      ],
+      "async_word": "LR LR LR LR LR LL RL R_ R_",
+      "first_separator": 2,
+      "path_P": "LLLLLLRRR",
+      "path_Q": "RRRRRLL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        5
+      ],
+      "Q": [
+        19,
+        17
+      ],
+      "async_word": "LR LR LR LR RR LR LR LR _L",
+      "first_separator": 2,
+      "path_P": "LLLLRLLL",
+      "path_Q": "RRRRRRRRL",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        29,
+        6
+      ],
+      "Q": [
+        19,
+        18
+      ],
+      "async_word": "LR LR LR RR LR LR LR LR _R _R _R _R _R _R _R _R _R",
+      "first_separator": 5,
+      "path_P": "LLLRLLLL",
+      "path_Q": "RRRRRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        30,
+        1
+      ],
+      "Q": [
+        20,
+        13
+      ],
+      "async_word": "LR LL LR LR LR LR LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 3,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        30,
+        7
+      ],
+      "Q": [
+        20,
+        19
+      ],
+      "async_word": "LR LR LR RR RR RR LR _R _R _R _R _R _R _R _R _R _R _R",
+      "first_separator": 3,
+      "path_P": "LLLRRRL",
+      "path_Q": "RRRRRRRRRRRRRRRRRR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        31,
+        1
+      ],
+      "Q": [
+        21,
+        13
+      ],
+      "async_word": "LR LL LR LL LR L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "path_Q": "RLRLR",
+      "r_s": [
+        12,
+        22
+      ]
+    },
+    {
+      "P": [
+        31,
+        4
+      ],
+      "Q": [
+        21,
+        16
+      ],
+      "async_word": "LR LR LR LL LL LL RL L_ L_",
+      "first_separator": 2,
+      "path_P": "LLLLLLRLL",
+      "path_Q": "RRRLLLL",
+      "r_s": [
+        12,
+        22
+      ]
+    }
+  ],
+  "first_separator_counts": {
+    "11": 228,
+    "13": 38,
+    "17": 9,
+    "2": 6349,
+    "3": 4925,
+    "5": 3544,
+    "7": 621
+  },
+  "moduli": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "qmax": 120,
+  "rmax": 60,
+  "survivors_recorded": [],
+  "total_pairs": 15714
+}
