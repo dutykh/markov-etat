@@ -449,7 +449,7 @@
   ]
 ]
 
-#v(1.5em)
+#v(1.1em)
 
 // ==========================================
 // ABSTRACT
@@ -460,7 +460,7 @@
   inset: (x: 20pt, y: 16pt),
   radius: 4pt,
   stroke: 0.5pt + ku-blue-pale,
-  below: 1.5em,
+  below: 1.1em,
 )[
   #text(weight: "bold", size: 10.5pt, fill: ku-blue)[Abstract]
   #v(0.4em)
@@ -470,7 +470,7 @@
   We study the Frobenius–Markov uniqueness conjecture through the Cohn-tree trace formulation. Using Cohn words, Farey cones, and trace recurrences, we prove same-ray monotonicity, dominance exclusion, Vieta gluing, and shifted boundary separation. We then show that any unresolved return-reduced cross-ray collision reduces to a terminal comparison in the standard Farey cone. Known monotonicity theorems for Markov and generalized Markov numbers exclude all non-exceptional terminal slopes and the primitive-step exceptional case. The remaining obstruction is an explicit terminal arithmetic problem in the exceptional slope window. We also prove that no fixed finite modular sieve can settle this terminal problem, and we isolate endpoint escape families by Fibonacci–Pell intersection. Thus Markov uniqueness is reduced to the Exceptional Terminal Arithmetic Theorem. As a first concrete step beyond this conditional reduction, we further prove the Exceptional Terminal Arithmetic Theorem in the minimal primitive exceptional direction $(R, H) = (6, 5)$ at multiplier $g = 2$, i.e. for $(r, h) = (12, 10)$ --- the first solved case inside the genuinely exceptional non-primitive terminal region. The full Exceptional Terminal Arithmetic Theorem remains open.
 ]
 
-#v(0.8em)
+#v(0.5em)
 
 // ==========================================
 // KEYWORDS
@@ -505,7 +505,11 @@
   #set par(justify: true, first-line-indent: 0pt)
   #text(weight: "bold", fill: ku-blue)[Code and data availability:]
   #h(0.4em)
-  All source code used in this study --- the exploratory scripts of @appendix:computational and the proof certificates of @appendix:minimal-certificates --- is openly available, in the interest of reproducible research, at the public repository #link("https://github.com/dutykh/markov-etat/")[#text(fill: ku-blue)[github.com\/dutykh\/markov-etat]]. The certificates of @sec:minimal-direction can be re-run and audited from that repository.
+  All source code used in this study --- the exploratory scripts of @appendix:computational and the proof certificates of @appendix:minimal-certificates --- is openly available, in the interest of reproducible research, at the public repository
+
+  #block(above: 0.85em, below: 0.85em, width: 100%)[#align(center)[#link("https://github.com/dutykh/markov-etat/")[#text(fill: ku-blue)[github.com\/dutykh\/markov-etat]]]]
+
+  The certificates of @sec:minimal-direction can be re-run and audited from that repository.
 ]
 
 // ==========================================
