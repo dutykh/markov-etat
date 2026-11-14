@@ -1,41 +1,39 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
 cff-version: 1.2.0
-message: "If you use this repository, please cite the monograph below."
+message: "If you use this code, please cite this software as given below; the monograph it accompanies is under review."
 title: "A Cohn-tree reduction of the Frobenius–Markov uniqueness conjecture (code and certificates)"
 type: software
 authors:
-  - family-names: "Dutykh"
-    given-names: "Denys"
+  - family-names: Dutykh
+    given-names: Denys
     affiliation: "Khalifa University of Science and Technology, Abu Dhabi, UAE"
     email: "denys.dutykh@ku.ac.ae"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
-  - family-names: "Vuillon"
-    given-names: "Laurent"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: Vuillon
+    given-names: Laurent
     affiliation: "Univ. Savoie Mont Blanc, CNRS, LAMA, Chambéry, France"
     email: "laurent.vuillon@univ-smb.fr"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: fill in
+    orcid: "https://orcid.org/0000-0002-3707-659X"
 repository-code: "https://github.com/dutykh/markov-etat"
 url: "https://github.com/dutykh/markov-etat"
-license: LGPL-2.1
+license: LGPL-2.1-only
+version: 1.0.0
+date-released: "2026-11-15"
 keywords:
-  - "Frobenius–Markov uniqueness conjecture"
-  - "Markov numbers"
-  - "Cohn tree"
-  - "Cohn words"
-  - "Farey cones"
-  - "trace recurrences"
-  - "Vieta gluing"
-  - "Fibonacci–Pell intersection"
-# The preferred citation is the monograph itself. Update year/doi/url/journal
-# once it is published.
-preferred-citation:
-  type: article
-  title: "A Cohn-tree reduction of the Frobenius–Markov uniqueness conjecture"
-  authors:
-    - family-names: "Dutykh"
-      given-names: "Denys"
-    - family-names: "Vuillon"
-      given-names: "Laurent"
-  year: 2026
-  # doi: "10.xxxx/xxxxxx"   # TODO: fill in once published
-  # url: "https://..."      # TODO: fill in once published
-  notes: "Preprint. Code and certificates: https://github.com/dutykh/markov-etat"
+  - markov-numbers
+  - cohn-tree
+  - number-theory
+  - diophantine-equations
+  - computational-number-theory
+  - python
+  - sagemath
+  - typst
+  - reproducible-research
+  - research-code
+abstract: >-
+  Typst source and Python code of the monograph "A Cohn-tree reduction of the Frobenius–Markov uniqueness conjecture"
+  (submitted, 2026), which reduces the uniqueness conjecture for Markov numbers to an exceptional terminal arithmetic
+  theorem and proves that theorem in its minimal exceptional direction. Exact integer checks eliminate the seventeen
+  one-parameter families left by the reductions, by congruences modulo 5, 23, 37 and 47 and a symbolic positivity
+  margin; exploratory scripts test the conventions and expose false proof strategies. Everything runs with the Python
+  standard library alone.

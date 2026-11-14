@@ -14,7 +14,7 @@ After the reductions of Chapter 16, any possible equality is contained in one of
     P_{c, k} = (12k + c + 24, 6k + c + 1),
     Q_{c, k} = (12k + c + 14, 6k + c + 13),
 
-with odd `c` and `-11 ≤ c ≤ 21`. The certificate verifies that every admissible family is separated:
+with odd `c` and `-11 ⩽ c ⩽ 21`. The certificate verifies that every admissible family is separated:
 
 - the sixteen non-central families (`c ∈ {-11, -9, …, 19, 21} \ {5}`) are separated by finite congruence certificates against one or two of the primes `5, 23, 37, 47`;
 - the central family `c = 5` is separated by a mod-37 congruence reduction to one survivor class `k ≡ 15 (mod 17)`, followed by a symbolic trace-positivity argument against a degree-16 polynomial inequality.
@@ -42,15 +42,15 @@ Each individual family verifier can also be run directly:
 python3 minimal_direction_c<X>_<moduli>_certificate.py
 ```
 
-regenerating the detailed finite residue table for that family.
+regenerating the detailed finite residue table for that family. Each family script writes its JSON report into the folder `/mnt/data/`, whose name is fixed in the script, before printing its summary, so on a machine without a writable folder of that name it stops with an error at that step. Where that folder exists, every family script reproduces its shipped report byte for byte. Changing the path in the shipped scripts would change the hashes that the master verifier compares, so a different folder is best set in a copy of the script.
 
 ## Files in this directory
 
-- `minimal_direction_g2_certificate.py` — master aggregate verifier.
-- `minimal_direction_g2_certificate.json` — aggregate certificate, containing the matrix-order data, family-summary table, central-family report (mod-37 survivors, Stern–Brocot paths, polynomial coefficients, positive margin), and SHA-256 hashes of every individual file.
-- `minimal_direction_c<X>_<moduli>_certificate.py` (16 files) — individual c-family verifiers, one per `c ∈ {-11, -9, …, 21}` other than `c = 5`. The filename `<moduli>` records which Cohn-residue primes that family uses (e.g. `mod37_mod5` means the primary modulus is 37 with auxiliary modulus 5).
-- `minimal_direction_c<X>_<moduli>_certificate.json` (16 files) — individual JSON outputs containing the residue tables, period, admissibility exclusions, survivor classes, and PASS status for each family.
-- `minimal_direction_c5_mod37_recurrence_certificate.py` / `.json` — the central-family verifier, which combines a mod-37 reduction with the symbolic-positivity recurrence argument.
+- `minimal_direction_g2_certificate.py`: master aggregate verifier.
+- `minimal_direction_g2_certificate.json`: aggregate certificate, containing the matrix-order data, family-summary table, central-family report (mod-37 survivors, Stern–Brocot paths, polynomial coefficients, positive margin), and SHA-256 hashes of every individual file.
+- `minimal_direction_c<X>_<moduli>_certificate.py` (16 files): individual c-family verifiers, one per `c ∈ {-11, -9, …, 21}` other than `c = 5`. The filename `<moduli>` records which Cohn-residue primes that family uses (e.g. `mod37_mod5` means the primary modulus is 37 with auxiliary modulus 5).
+- `minimal_direction_c<X>_<moduli>_certificate.json` (16 files): individual JSON outputs containing the residue tables, period, admissibility exclusions, survivor classes, and PASS status for each family.
+- `minimal_direction_c5_mod37_recurrence_certificate.py` / `.json`: the central-family verifier, which combines a mod-37 reduction with the symbolic-positivity recurrence argument.
 
 ## Underlying matrix-order congruences
 

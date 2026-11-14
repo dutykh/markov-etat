@@ -88,9 +88,9 @@ python3 one_turn_fixed_arm_sanity_check.py
 Verifies the affine recurrence
 `X_{n+1} = 7 X_n − X_{n−1} − 4` for `X_n = (3 L_{4n+12} + 4) / 5` and
 the homogeneous recurrence `Y_{m+1} = 6 Y_m − Y_{m−1}` for
-`Y_m = Pe_{2m+3}`, and searches for hits in a box `n ≤ 300, m ≤ 350`.
+`Y_m = Pe_{2m+3}`, and searches for hits in a box `n ⩽ 300, m ⩽ 350`.
 Expected output: **no hits**, plus two Pellian-system hits at
-`y = 5, 29` (both outside `n ≥ 0`).
+`y = 5, 29` (both outside `n ⩾ 0`).
 
 ### 2. Cohn–Stern–Brocot residue automaton
 
@@ -132,8 +132,8 @@ of possibly different lengths. The register automaton additionally
 carries the exact lattice coordinates `(q, p), (q', p')` so that the
 terminal exceptional conditions `4r < 5h`, `8h < 7r`, `gcd(r, h) > 1`
 can be checked exactly. Running the register scan with
-`qmax = 120, rmax = 60` checks 6585 primitive terminal exceptional
-pairs and leaves no survivors — a regression test against the small
+`qmax = 120, rmax = 60` checks 15714 primitive terminal exceptional
+pairs and leaves no survivors: a regression test against the small
 primes, not a proof.
 
 ### 5. The modular escape family `(P_T, Q_T)`
@@ -162,7 +162,7 @@ python3 fixed_arm_family_analyzer.py --kmax 6 --ncount 24 --out outputs/fixed_ar
 For each `k = 1, …, 6`, computes the Markov sequence
 `X_n(k) = m_{path(L^{n+1} R^k)}` and uses rational Gaussian
 elimination to guess and verify a linear recurrence in `n`. Empirical
-output (verified for `k ≤ 6`):
+output (verified for `k ⩽ 6`):
 
 | k | type        | order | coefficient list (palindromic) |
 |---|-------------|-------|--------------------------------|
@@ -175,7 +175,7 @@ output (verified for `k ≤ 6`):
 
 Order = 2k + 2, with parity-alternating affine/homogeneous and
 palindromic coefficient lists. This is an empirical observation,
-verified for `k ≤ 6`; we have not proved the pattern in general.
+verified for `k ⩽ 6`; we have not proved the pattern in general.
 
 ### 7. The one-turn Pellian certificate (proposed, not executed)
 
@@ -196,8 +196,8 @@ with `w = (5 y − 4) / 3 = L_{4 n + 12}` and `v = F_{4 n + 12}`. The
 Magma and Sage scripts ask their respective integral-points routines
 to enumerate the solutions on this affine genus-one curve. The
 expected positive `y`-values are `y = 5, 29`, corresponding to
-`w = 7, 47 = L_4, L_8`, hence to `n = −2, −1` — outside the required
-range `n ≥ 0`.
+`w = 7, 47 = L_4, L_8`, hence to `n = −2, −1`, outside the required
+range `n ⩾ 0`.
 
 **These scripts have not been executed in the manuscript's working
 environment.** They are a proposed verification module and are
@@ -212,7 +212,7 @@ python3 bounded_exceptional_dfa_builder.py --qmax 80 --rmax 40 ...
 Converts a bounded sample of terminal exceptional pairs into a finite
 trie DFA, grouped by first separating modulus. The archive
 `outputs/bounded_exceptional_certificate_80_40.zip` contains the
-trie data for the window `q ≤ 80, r ≤ 40`. Bounded certificates are
+trie data for the window `q ⩽ 80, r ⩽ 40`. Bounded certificates are
 useful regression tests; they do not prove the infinite theorem.
 
 ## What the computations do and do not prove
@@ -225,9 +225,9 @@ The computations in this directory:
   (the recurrence-order hierarchy, the absence of small-modulus
   surprises in finite windows);
 * expose false proof strategies (synchronous pair automata over
-  Stern-Brocot symbols cannot work — the exact terminal language is
-  not regular; no fixed finite set of moduli can solve the
-  exceptional terminal problem — proved as a theorem in §12);
+  Stern-Brocot symbols cannot work, since the exact terminal language
+  is not regular; no fixed finite set of moduli can solve the
+  exceptional terminal problem, which §12 proves as a theorem);
 * provide regression tests against future certificate constructions.
 
 They do **not** prove the Exceptional Terminal Arithmetic Theorem,
